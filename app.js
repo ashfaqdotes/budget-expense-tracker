@@ -18,6 +18,7 @@ function setBudget() {
   if (budgetData.value >= 1 && budgetData.value != '') {
     displayBudget.innerText = '';
     displayBudget.innerText += budgetData.value;
+    budgetData.value = '';
 
   } else {
     alert("Please Enter Valid Budget Amount");
